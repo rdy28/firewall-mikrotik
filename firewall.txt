@@ -1,3 +1,4 @@
+ip firewall filter
 add chain= virus protocol= tcp dst-port= 135-139 action= drop comment= "Blokir Blaster Worm"
 add chain= virus protocol= udp dst-port= 135-139 action= drop comment= "Blokir Messenger Worm"  
 add chain= virus protocol= tcp dst-port= 445 action= drop comment= "Blokir Blaster Worm TCP"
